@@ -1,4 +1,5 @@
-﻿using DesignPatternsDotNet.Tests.Behavioral.State.TrafficLight;
+﻿using DesignPatternsDotNet.Tests.Behavioral.State;
+using DesignPatternsDotNet.Tests.Behavioral.State.TrafficLight;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,8 +22,12 @@ namespace DesignPatternsDotNet.Tests
         {
             Console.WriteLine("===================[Begin demo]=====================");
 
+            var fixture = new TrafficLightTests();
+            fixture.SetUp();
+            fixture.RunTests();
+
             TrafficLight trafficLight = new TrafficLight();
-            for (var i = 0; i < 10; i++)
+            for (var i = 0; i < 4; i++)
             {
                 Console.WriteLine(trafficLight.Color);
                 System.Threading.Thread.Sleep(trafficLight.Pause * 1000);

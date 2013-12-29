@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\State\TrafficLightTests.cs" />
     <Compile Include="Behavioral\State\TrafficLight\LightStates\BaseLightState.cs" />
     <Compile Include="Behavioral\State\TrafficLight\LightStates\GreenLightState.cs" />
     <Compile Include="Behavioral\State\TrafficLight\LightStates\OffLightState.cs" />
