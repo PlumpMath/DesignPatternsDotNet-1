@@ -51,6 +51,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\BaseTestFixture.cs" />
+    <Compile Include="Behavioral\State\TvRemoteTests.cs" />
     <Compile Include="Behavioral\State\TrafficLightTests.cs" />
     <Compile Include="Behavioral\State\TrafficLight\LightStates\BaseLightState.cs" />
     <Compile Include="Behavioral\State\TrafficLight\LightStates\GreenLightState.cs" />
@@ -59,6 +61,13 @@
     <Compile Include="Behavioral\State\TrafficLight\LightStates\YellowLightState.cs" />
     <Compile Include="Behavioral\State\TrafficLight\TrafficLight.cs" />
     <Compile Include="Behavioral\State\TrafficLight\TrafficLightColorType.cs" />
+    <Compile Include="Behavioral\State\TvRemote\TvSet.cs" />
+    <Compile Include="Behavioral\State\TvRemote\TvStates\BaseTvState.cs" />
+    <Compile Include="Behavioral\State\TvRemote\TvStates\TvStateOff.cs" />
+    <Compile Include="Behavioral\State\TvRemote\TvStates\TvStateOn.cs" />
+    <Compile Include="Base\BaseDemo.cs" />
+    <Compile Include="Demos\Behavioral\State\TrafficLightDemo.cs" />
+    <Compile Include="Demos\Behavioral\State\TvRemoteDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

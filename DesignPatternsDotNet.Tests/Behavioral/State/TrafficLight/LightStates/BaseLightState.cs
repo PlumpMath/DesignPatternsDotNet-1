@@ -5,8 +5,8 @@ namespace DesignPatternsDotNet.Tests.Behavioral.State.TrafficLight.LightStates
     public abstract class BaseLightState : IState<IContext> 
     {
         protected abstract TrafficLightColorType Color { get; }
-        protected abstract int Pause { get; }
-        protected abstract BaseLightState NextState { get; }
+        protected abstract int Duration { get; }
+        protected abstract BaseLightState NextLight { get; }
 
         public void Handle(IContext context)
         {
@@ -14,8 +14,8 @@ namespace DesignPatternsDotNet.Tests.Behavioral.State.TrafficLight.LightStates
             if (trafficLight != null)
             {
                 trafficLight.Color = Color;
-                trafficLight.Pause = Pause;
-                trafficLight.State = NextState;
+                trafficLight.Duration = Duration;
+                trafficLight.NextLight = NextLight;
             }
         }
     }

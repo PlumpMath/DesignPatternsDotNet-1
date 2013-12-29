@@ -3,7 +3,7 @@
     public abstract class BaseContext<TState> : IContext
         where TState : IState<IContext>
     {
-        public TState State { get; set; }
+        public TState State { get; protected set; }
 
         public BaseContext(TState state)
         {

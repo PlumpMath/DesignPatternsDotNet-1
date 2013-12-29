@@ -1,5 +1,6 @@
 ﻿using DesignPatternsDotNet.Tests.Behavioral.State;
 using DesignPatternsDotNet.Tests.Behavioral.State.TrafficLight;
+using DesignPatternsDotNet.Tests.Demos.Behavioral.State;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,15 +13,16 @@ namespace DesignPatternsDotNet.Tests
     {
         static void Main(string[] args)
         {
-            DoDemo();
+            new TrafficLightDemo().DoDemo();
+            new TvRemoteDemo().DoDemo();
 
             Console.WriteLine("<Enter>");
             Console.ReadLine();
         }
 
-        public static void DoDemo()
+        public static void DoStateDemo()
         {
-            Console.WriteLine("===================[Begin demo]=====================");
+            Console.WriteLine("===================[Begin Demo: State]=====================");
 
             var fixture = new TrafficLightTests();
             fixture.SetUp();
@@ -30,11 +32,11 @@ namespace DesignPatternsDotNet.Tests
             for (var i = 0; i < 4; i++)
             {
                 Console.WriteLine(trafficLight.Color);
-                System.Threading.Thread.Sleep(trafficLight.Pause * 1000);
+                System.Threading.Thread.Sleep(trafficLight.Duration * 1000);
                 trafficLight.Request();
             }
 
-            Console.WriteLine("===================[End demno]======================");
+            Console.WriteLine("===================[End Demo: State]======================");
         } 
     }
 }

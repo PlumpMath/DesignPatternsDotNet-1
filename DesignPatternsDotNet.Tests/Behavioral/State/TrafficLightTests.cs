@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using DesignPatternsDotNet.Tests.Base;
+using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using Color = DesignPatternsDotNet.Tests.Behavioral.State.TrafficLight.TrafficLightColorType;
@@ -7,7 +8,7 @@ using Sut = DesignPatternsDotNet.Tests.Behavioral.State.TrafficLight.TrafficLigh
 namespace DesignPatternsDotNet.Tests.Behavioral.State
 {
     [TestFixture]
-    public class TrafficLightTests
+    public class TrafficLightTests : BaseTestFixture
     {
         public class TestData
         {
@@ -18,7 +19,7 @@ namespace DesignPatternsDotNet.Tests.Behavioral.State
         IList<TestData> Tests;
 
         [SetUp]
-        public void SetUp()
+        public override void SetUp()
         {
             Tests = new List<TestData>()
             {
@@ -32,7 +33,7 @@ namespace DesignPatternsDotNet.Tests.Behavioral.State
         }
 
         [Test]
-        public void RunTests()
+        public override void RunTests()
         {
             var sut = new Sut();
 
@@ -40,7 +41,7 @@ namespace DesignPatternsDotNet.Tests.Behavioral.State
             {
                 Console.WriteLine("Current light should be: {0} for {1} seconds.", test.Color, test.Pause);
                 Assert.AreEqual(test.Color, sut.Color);
-                Assert.AreEqual(test.Pause, sut.Pause);
+                Assert.AreEqual(test.Pause, sut.Duration);
                 Console.WriteLine(" OK.");
 
                 sut.Request();

@@ -24,8 +24,13 @@ namespace DesignPatternsDotNet.Tests.Behavioral.State.TrafficLight
     /// </example>
     public class TrafficLight : BaseContext<BaseLightState>
     {
-        public int Pause { get; set; }
+        public int Duration { get; set; }
         public TrafficLightColorType Color { get; set; }
+        public BaseLightState NextLight
+        {
+            get { return State; }
+            set { State = value;  }
+        }
 
         public TrafficLight()
             : base(new RedLightState())

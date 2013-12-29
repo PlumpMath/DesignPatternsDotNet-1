@@ -7,12 +7,12 @@
             get { return TrafficLightColorType.None; }
         }
 
-        protected override int Pause
+        protected override int Duration
         {
             get { return 0; }
         }
 
-        protected override BaseLightState NextState
+        protected override BaseLightState NextLight
         {
             get { return new RedLightState(); }
         }
