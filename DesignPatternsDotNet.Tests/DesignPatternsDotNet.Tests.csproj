@@ -49,12 +49,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\State\TrafficLight\LightStates\BaseLightState.cs" />
+    <Compile Include="Behavioral\State\TrafficLight\LightStates\GreenLightState.cs" />
+    <Compile Include="Behavioral\State\TrafficLight\LightStates\OffLightState.cs" />
+    <Compile Include="Behavioral\State\TrafficLight\LightStates\RedLightState.cs" />
+    <Compile Include="Behavioral\State\TrafficLight\LightStates\YellowLightState.cs" />
+    <Compile Include="Behavioral\State\TrafficLight\TrafficLight.cs" />
+    <Compile Include="Behavioral\State\TrafficLight\TrafficLightColorType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DesignPatternsDotNet\DesignPatternsDotNet.csproj">
+      <Project>{338abf48-c010-40dd-9819-1715a696301c}</Project>
+      <Name>DesignPatternsDotNet</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
