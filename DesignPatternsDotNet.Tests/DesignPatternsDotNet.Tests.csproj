@@ -52,6 +52,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\BaseTestFixture.cs" />
+    <Compile Include="Behavioral\Observer\Calculator\Calculator.cs" />
+    <Compile Include="Behavioral\Observer\Calculator\CalculatorDisplay.cs" />
+    <Compile Include="Behavioral\Observer\Calculator\CalculatorProcessor.cs" />
+    <Compile Include="Behavioral\Observer\Calculator\CalculatorState.cs" />
+    <Compile Include="Behavioral\Observer\CalculatorTests.cs" />
     <Compile Include="Behavioral\State\TvRemoteTests.cs" />
     <Compile Include="Behavioral\State\TrafficLightTests.cs" />
     <Compile Include="Behavioral\State\TrafficLight\LightStates\BaseLightState.cs" />
@@ -67,6 +72,7 @@
     <Compile Include="Behavioral\State\TvRemote\TvStates\TvStateOn.cs" />
     <Compile Include="Base\BaseDemo.cs" />
     <Compile Include="Demos\Behavioral\State\TrafficLightDemo.cs" />
+    <Compile Include="Demos\Behavioral\State\CalculatorDemo.cs" />
     <Compile Include="Demos\Behavioral\State\TvRemoteDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
