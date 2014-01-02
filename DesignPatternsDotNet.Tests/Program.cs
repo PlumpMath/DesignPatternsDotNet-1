@@ -1,4 +1,4 @@
-﻿using DesignPatternsDotNet.Tests.Demos.Behavioral.State;
+﻿using Demos=DesignPatternsDotNet.Tests.Demos;
 using System;
 
 namespace DesignPatternsDotNet.Tests
@@ -7,9 +7,10 @@ namespace DesignPatternsDotNet.Tests
     {
         static void Main(string[] args)
         {
-            new CalculatorDemo().DoDemo();
-            new TrafficLightDemo().DoDemo();
-            new TvRemoteDemo().DoDemo();
+            new Demos.Behavioral.State.TrafficLightDemo().DoDemo();
+            new Demos.Behavioral.State.TvRemoteDemo().DoDemo();
+            new Demos.Behavioral.Observer.CalculatorDemo().DoDemo();
+            new Demos.Behavioral.Memento.UndoableCalculatorDemo().DoDemo();
 
             Console.WriteLine("<Enter>");
             Console.ReadLine();

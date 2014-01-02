@@ -17,6 +17,7 @@ namespace DesignPatternsDotNet.Tests.Demos.Behavioral.State
 
             TestFixture.SetUp();
             TestFixture.RunTests();
+            TestFixture.TearDown();
 
             Console.WriteLine("===================[End Demo: "+DemoTitle+"]======================");
         }

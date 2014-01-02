@@ -11,7 +11,6 @@ namespace DesignPatternsDotNet.Tests.Behavioral.State
     {
         IList<bool> Tests;
 
-        [SetUp]
         public override void SetUp()
         {
             Tests = new List<bool>()

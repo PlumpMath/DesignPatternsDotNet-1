@@ -18,7 +18,6 @@ namespace DesignPatternsDotNet.Tests.Behavioral.State
 
         IList<TestData> Tests;
 
-        [SetUp]
         public override void SetUp()
         {
             Tests = new List<TestData>()

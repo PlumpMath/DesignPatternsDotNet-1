@@ -4,7 +4,7 @@ using DesignPatternsDotNet.Tests.Behavioral.State;
 using System;
 using System.Collections.Generic;
 
-namespace DesignPatternsDotNet.Tests.Demos.Behavioral.State
+namespace DesignPatternsDotNet.Tests.Demos.Behavioral.Observer
 {
     public class CalculatorDemo : BaseDemo<CalculatorTests>
     {
@@ -19,6 +19,7 @@ namespace DesignPatternsDotNet.Tests.Demos.Behavioral.State
 
             TestFixture.SetUp();
             TestFixture.RunTests();
+            TestFixture.TearDown();
 
             var state = new CalculatorState();
             var proc = new CalculatorProcessor(state);

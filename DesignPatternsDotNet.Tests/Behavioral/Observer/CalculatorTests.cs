@@ -14,7 +14,6 @@ namespace DesignPatternsDotNet.Tests.Behavioral.State
 
         IList<Mock<CalculatorDisplay>> _displays;
 
-        [SetUp]
         public override void SetUp()
         {
             _displays = new List<Mock<CalculatorDisplay>>();
