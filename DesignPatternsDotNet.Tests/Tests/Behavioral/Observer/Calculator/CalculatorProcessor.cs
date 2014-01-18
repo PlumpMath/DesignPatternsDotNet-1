@@ -1,6 +1,6 @@
 ﻿using DesignPatternsDotNet.Behavioral.Observer;
 
-namespace DesignPatternsDotNet.Tests.Behavioral.Observer.Calculator
+namespace DesignPatternsDotNet.Tests.Tests.Behavioral.Observer.Calculator
 {
     public class CalculatorProcessor : BaseSubject<CalculatorState>
     {

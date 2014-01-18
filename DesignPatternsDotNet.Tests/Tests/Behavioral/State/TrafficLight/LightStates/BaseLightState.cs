@@ -1,6 +1,6 @@
 ﻿using DesignPatternsDotNet.Behavioral.State;
 
-namespace DesignPatternsDotNet.Tests.Behavioral.State.TrafficLight.LightStates
+namespace DesignPatternsDotNet.Tests.Tests.Behavioral.State.TrafficLight.LightStates
 {
     public abstract class BaseLightState : IState<IContext> 
     {

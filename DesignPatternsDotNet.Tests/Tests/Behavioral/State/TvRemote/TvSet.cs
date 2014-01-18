@@ -1,7 +1,7 @@
 ﻿using DesignPatternsDotNet.Behavioral.State;
-using DesignPatternsDotNet.Tests.Behavioral.State.TvRemote.TvStates;
+using DesignPatternsDotNet.Tests.Tests.Behavioral.State.TvRemote.TvStates;
 
-namespace DesignPatternsDotNet.Tests.Behavioral.State.TvRemote
+namespace DesignPatternsDotNet.Tests.Tests.Behavioral.State.TvRemote
 {
     public class TvSet : BaseContext<BaseTvState>
     {

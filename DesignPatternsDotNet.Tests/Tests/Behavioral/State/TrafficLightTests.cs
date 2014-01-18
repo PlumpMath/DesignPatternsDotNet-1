@@ -2,10 +2,10 @@
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
-using Color = DesignPatternsDotNet.Tests.Behavioral.State.TrafficLight.TrafficLightColorType;
-using Sut = DesignPatternsDotNet.Tests.Behavioral.State.TrafficLight.TrafficLight;
+using Color = DesignPatternsDotNet.Tests.Tests.Behavioral.State.TrafficLight.TrafficLightColorType;
+using Sut = DesignPatternsDotNet.Tests.Tests.Behavioral.State.TrafficLight.TrafficLight;
 
-namespace DesignPatternsDotNet.Tests.Behavioral.State
+namespace DesignPatternsDotNet.Tests.Tests.Behavioral.State
 {
     [TestFixture]
     public class TrafficLightTests : BaseTestFixture

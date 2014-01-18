@@ -1,10 +1,10 @@
 ﻿using DesignPatternsDotNet.Behavioral.Memento;
 using DesignPatternsDotNet.Tests.Base;
-using DesignPatternsDotNet.Tests.Behavioral.Memento.UndoableCalculator;
+using DesignPatternsDotNet.Tests.Tests.Behavioral.Memento.UndoableCalculator;
 using NUnit.Framework;
 using System;
 
-namespace DesignPatternsDotNet.Tests.Behavioral.State
+namespace DesignPatternsDotNet.Tests.Tests.Behavioral.State
 {
     [TestFixture]
     public class UndoableCalculatorTests : BaseTestFixture

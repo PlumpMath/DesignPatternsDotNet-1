@@ -1,5 +1,5 @@
 ﻿using DesignPatternsDotNet.Tests.Base;
-using DesignPatternsDotNet.Tests.Behavioral.State;
+using DesignPatternsDotNet.Tests.Tests.Behavioral.State;
 using System;
 
 namespace DesignPatternsDotNet.Tests.Demos.Behavioral.Memento

@@ -1,4 +1,4 @@
-﻿namespace DesignPatternsDotNet.Tests.Behavioral.State.TrafficLight.LightStates
+﻿namespace DesignPatternsDotNet.Tests.Tests.Behavioral.State.TrafficLight.LightStates
 {
     public class GreenLightState : BaseLightState
     {

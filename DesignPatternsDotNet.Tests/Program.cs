@@ -12,6 +12,8 @@ namespace DesignPatternsDotNet.Tests
             new Demos.Behavioral.Observer.CalculatorDemo().DoDemo();
             new Demos.Behavioral.Memento.UndoableCalculatorDemo().DoDemo();
 
+            new Demos.Structural.Composite.ProductsDemo().DoDemo();
+
             Console.WriteLine("<Enter>");
             Console.ReadLine();
         }

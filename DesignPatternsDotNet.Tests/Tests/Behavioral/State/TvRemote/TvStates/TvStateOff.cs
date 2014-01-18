@@ -1,4 +1,4 @@
-﻿namespace DesignPatternsDotNet.Tests.Behavioral.State.TvRemote.TvStates
+﻿namespace DesignPatternsDotNet.Tests.Tests.Behavioral.State.TvRemote.TvStates
 {
     public class TvStateOff : BaseTvState
     {

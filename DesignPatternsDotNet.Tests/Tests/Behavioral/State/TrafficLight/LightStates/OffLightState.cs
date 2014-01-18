@@ -1,15 +1,15 @@
-﻿namespace DesignPatternsDotNet.Tests.Behavioral.State.TrafficLight.LightStates
+﻿namespace DesignPatternsDotNet.Tests.Tests.Behavioral.State.TrafficLight.LightStates
 {
-    public class YellowLightState : BaseLightState
+    public class OffLightState : BaseLightState
     {
         protected override TrafficLightColorType Color
         {
-            get { return TrafficLightColorType.Yellow; }
+            get { return TrafficLightColorType.None; }
         }
 
         protected override int Duration
         {
-            get { return 2; }
+            get { return 0; }
         }
 
         protected override BaseLightState NextLight

@@ -1,7 +1,7 @@
 ﻿using DesignPatternsDotNet.Behavioral.State;
-using DesignPatternsDotNet.Tests.Behavioral.State.TrafficLight.LightStates;
+using DesignPatternsDotNet.Tests.Tests.Behavioral.State.TrafficLight.LightStates;
 
-namespace DesignPatternsDotNet.Tests.Behavioral.State.TrafficLight
+namespace DesignPatternsDotNet.Tests.Tests.Behavioral.State.TrafficLight
 {
     /// <summary>
     /// Implements a context object.

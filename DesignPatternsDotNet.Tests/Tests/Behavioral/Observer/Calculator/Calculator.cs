@@ -1,4 +1,4 @@
-﻿namespace DesignPatternsDotNet.Tests.Behavioral.Observer.Calculator
+﻿namespace DesignPatternsDotNet.Tests.Tests.Behavioral.Observer.Calculator
 {
     public class Calculator
     {

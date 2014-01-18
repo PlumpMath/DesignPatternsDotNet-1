@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPatternsDotNet.Tests.Behavioral.Memento.UndoableCalculator
+namespace DesignPatternsDotNet.Tests.Tests.Behavioral.Memento.UndoableCalculator
 {
     [Serializable]
     public class CalculatorState

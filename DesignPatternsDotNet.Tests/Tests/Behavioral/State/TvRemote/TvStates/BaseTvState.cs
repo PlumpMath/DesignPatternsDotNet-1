@@ -1,6 +1,6 @@
 ﻿using DesignPatternsDotNet.Behavioral.State;
 
-namespace DesignPatternsDotNet.Tests.Behavioral.State.TvRemote.TvStates
+namespace DesignPatternsDotNet.Tests.Tests.Behavioral.State.TvRemote.TvStates
 {
     public abstract class BaseTvState : IState<IContext>
     {

@@ -51,6 +51,7 @@
     <Compile Include="Behavioral\State\IContext.cs" />
     <Compile Include="Behavioral\State\IState.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structural\Composite\BaseComponent.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Behavioral\Memento\IMemento.cs" />

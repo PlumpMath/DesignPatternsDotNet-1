@@ -2,9 +2,9 @@
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
-using Sut = DesignPatternsDotNet.Tests.Behavioral.State.TvRemote.TvSet;
+using Sut = DesignPatternsDotNet.Tests.Tests.Behavioral.State.TvRemote.TvSet;
 
-namespace DesignPatternsDotNet.Tests.Behavioral.State
+namespace DesignPatternsDotNet.Tests.Tests.Behavioral.State
 {
     [TestFixture]
     public class TvRemoteTests : BaseTestFixture

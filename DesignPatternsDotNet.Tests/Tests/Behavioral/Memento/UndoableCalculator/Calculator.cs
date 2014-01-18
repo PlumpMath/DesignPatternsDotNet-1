@@ -1,6 +1,6 @@
 ﻿using DesignPatternsDotNet.Behavioral.Memento;
 
-namespace DesignPatternsDotNet.Tests.Behavioral.Memento.UndoableCalculator
+namespace DesignPatternsDotNet.Tests.Tests.Behavioral.Memento.UndoableCalculator
 {
     /// <summary>
     /// Caretaker is the object that controls when to create Memento but the Originator.

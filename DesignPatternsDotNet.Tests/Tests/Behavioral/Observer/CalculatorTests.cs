@@ -1,11 +1,11 @@
 ﻿using DesignPatternsDotNet.Tests.Base;
-using DesignPatternsDotNet.Tests.Behavioral.Observer.Calculator;
+using DesignPatternsDotNet.Tests.Tests.Behavioral.Observer.Calculator;
 using Moq;
 using NUnit.Framework;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace DesignPatternsDotNet.Tests.Behavioral.State
+namespace DesignPatternsDotNet.Tests.Tests.Behavioral.State
 {
     [TestFixture]
     public class CalculatorTests : BaseTestFixture

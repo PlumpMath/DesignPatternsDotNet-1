@@ -1,6 +1,6 @@
 ﻿using DesignPatternsDotNet.Behavioral.Memento;
 
-namespace DesignPatternsDotNet.Tests.Behavioral.Memento.UndoableCalculator
+namespace DesignPatternsDotNet.Tests.Tests.Behavioral.Memento.UndoableCalculator
 {
     public class CalculatorProcessor : BaseOriginator<CalculatorState>
     {

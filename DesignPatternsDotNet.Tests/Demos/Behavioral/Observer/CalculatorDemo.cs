@@ -1,6 +1,6 @@
 ﻿using DesignPatternsDotNet.Tests.Base;
-using DesignPatternsDotNet.Tests.Behavioral.Observer.Calculator;
-using DesignPatternsDotNet.Tests.Behavioral.State;
+using DesignPatternsDotNet.Tests.Tests.Behavioral.Observer.Calculator;
+using DesignPatternsDotNet.Tests.Tests.Behavioral.State;
 using System;
 using System.Collections.Generic;
 
